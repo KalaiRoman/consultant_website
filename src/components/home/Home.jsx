@@ -5,16 +5,18 @@ import HAbout from "./HAbout"
 import Hero from "./hero/Hero"
 import Hprice from "./Hprice"
 import Testimonal from "./testimonal/Testimonal"
+import CardCarousel from "../common/cardscarousel/CardCarousel"
 
 const Home = () => {
   return (
     <>
       <Hero />
-      <AboutCard />
+      <CardCarousel />
+      {/* <AboutCard />
       <HAbout />
       <Testimonal />
       <Hblog />
-      <Hprice />
+      <Hprice /> */}
     </>
   )
 }

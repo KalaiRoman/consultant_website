@@ -64,7 +64,7 @@ const Hero = () => {
         <Splide options={sliderOptions}>
           {data?.map((item, index) => {
             return (
-              <SplideSlide>
+              <SplideSlide key={index}>
                 <div>
                   {item?.title}
                 </div>
