@@ -1,0 +1,16 @@
+@use "../../../sass/abstract/" as *;
+
+.main-section6 {
+    background-image: url("../../../assests/image//border-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100%;
+    background-color: #edf7ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 10px;
+}

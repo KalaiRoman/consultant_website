@@ -1,22 +1,22 @@
 import React from "react"
-import AboutCard from "../about/AboutCard"
-import Hblog from "./Hblog"
-import HAbout from "./HAbout"
 import Hero from "./hero/Hero"
-import Hprice from "./Hprice"
-import Testimonal from "./testimonal/Testimonal"
-import CardCarousel from "../common/cardscarousel/CardCarousel"
+import Section2 from "./section2/Section2"
+import Section3 from "./section3/Section3"
+import Section4 from "./section4/Section4"
+import Section5 from "./section5/Section5"
+import Section6 from "./section6/Section6"
+import Section7 from "./section7/Section7"
 
 const Home = () => {
   return (
     <>
       <Hero />
-      <CardCarousel />
-      {/* <AboutCard />
-      <HAbout />
-      <Testimonal />
-      <Hblog />
-      <Hprice /> */}
+      <Section2 />
+      <Section3 />
+      <Section4 />
+      <Section5 />
+      <Section6 />
+      <Section7 />
     </>
   )
 }

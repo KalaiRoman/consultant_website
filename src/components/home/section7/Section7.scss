@@ -1,0 +1,70 @@
+@use "../../../sass/abstract/" as *;
+
+.main-section7 {
+    width: 100%;
+    height: 100vh;
+    .inside-main-section {
+        width: 100%;
+        display: flex;
+        gap: 20px;
+        height: 100%;
+        .left-section7 {
+            width: 35%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .person-image {
+                width: 450px;
+                height: 100%;
+                object-fit: contain;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: 2s;
+                animation: person 3s ease-in-out infinite;
+            }
+        }
+        .right-section7 {
+            width: 65%;
+            padding: 5% 20px;
+            display: flex;
+            flex-direction: column;
+            .main-no {
+                width: 80px;
+                height: 80px;
+                padding: 6px;
+                border: 1px solid #f1f1f1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .inside-no {
+                    width: 70px;
+                    height: 70px;
+                    cursor: pointer;
+                    background-color: #f0f0f0;
+                    color: orange;
+                    font-size: 1.8rem;
+                    font-weight: 600;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
+
+@keyframes person {
+    0% {
+        transform: translateY(0px);
+        transition: 2s;
+    }
+    50% {
+        transform: translateY(30px);
+        transition: 2s;
+    }
+    100% {
+        transform: translateY(0px);
+        transition: 2s;
+    }
+}

@@ -16,6 +16,9 @@ import '@splidejs/react-splide/css/core';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.js';
+
 const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(
   <BrowserRouter>

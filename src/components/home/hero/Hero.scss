@@ -1,45 +1,67 @@
 @use "../../../sass/abstract/" as *;
-.heros {
-  background-image: url("../../../../public/images/bg.webp");
-  background-size: cover;
-  background-attachment: fixed;
-  top: 0;
-  left: 0;
-  z-index: -1;
+
+.main-hero-section {
   width: 100%;
-  height: 100vh;
-  padding-top: 5%;
-  color: #fff;
-  @include xsBreakPoint {
+  height: 80vh;
+  overflow: hidden;
+  background-image: url("https://www.evisiontechnoserve.com/front/assets/img/it-recruiting-img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  .inside-hero-section {
     width: 100%;
     height: 100%;
-    padding-right: 0;
-  }
-}
-.hero #heading h3 {
-  color: #fff;
-}
-.hero #heading {
-  text-align: left;
-  margin: 0;
-  padding: 0;
-}
-@media screen and (max-width: 768px) {
-  .margin {
-    height: 40vh;
-  }
-  .hero {
-    background-position: right;
-    padding-top: 50%;
-    height: 80vh;
-  }
-  .hero .row {
-    width: 100%;
+    .left-hero-section {
+      padding-top: 5%;
+      padding-left: 3%;
+      width: 50%;
+      .finding-text {
+        width: 85%;
+        font-size: 1.1rem;
+        line-height: 28px;
+        font-weight: 400;
+      }
+      .service-text {
+        color: #03577c;
+        font-weight: 600;
+      }
+      .get-start {
+        width: 20%;
+        border-radius: 20px;
+        color: white;
+        background-color: orange;
+        cursor: pointer;
+        padding: 10px;
+      }
+    }
   }
 }
 
-.image-box {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+.card-position {
+  width: 94%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  height: auto;
+  background-color: white;
+  position: absolute;
+  bottom: -10vw;
+  margin: 0 auto;
+  border-radius: 20px;
+  transform: translateX(-50%, -50%);
+  left: 0;
+  right: 0;
+  flex-direction: row;
+  display: flex;
+  padding: 10px 20px;
+  gap: 20px;
+  .it-image {
+    width: 70vw;
+    border-radius: 10px;
+  }
+  .it {
+    color: #2084c9;
+  }
+  .did-text {
+    line-height: 2vw;
+  }
 }
