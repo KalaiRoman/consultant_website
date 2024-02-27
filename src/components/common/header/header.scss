@@ -82,9 +82,11 @@ header ul li a:hover {
 
 .list-box {
   position: absolute;
-  background: white;
+  background: #3d3b40;
   border-radius: 10px;
   padding: 5px 10px;
+  z-index: 98989898 !important;
+  color: white;
 }
 
 .box-list-show {

@@ -11,13 +11,53 @@
         justify-content: center;
         gap: 20px;
         .left-girl {
-            width: 35%;
+            width: 50%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-top: 5%;
+            .box1-inside {
+                width: 80px;
+                height: 80px;
+                border: 1px solid #f1f1f1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .box2-inside {
+                    width: 70px;
+                    height: 70px;
+                    background-color: #f1f1f1;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 3rem;
+                    color: orange;
+                }
+            }
+            .map-section {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .box11-inside {
+                    width: 20%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .box2-inside {
+                    width: 80%;
+                }
+            }
         }
-        .middle-girl {
-            width: 30%;
-        }
+
         .right-girl {
-            width: 35%;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
     }
 }

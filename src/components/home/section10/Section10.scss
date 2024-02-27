@@ -1,0 +1,30 @@
+@use "../../../sass/abstract/" as *;
+
+.main-acc {
+    width: 90%;
+    border-bottom: 1px solid #eaecef;
+    margin: 10px auto;
+    cursor: pointer;
+    padding-bottom: 20px;
+    .acc-box1 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        transition: 1s;
+        padding: 10px 10px;
+    }
+    .acc-box2 {
+        transition: 1s;
+        padding: 20px 15px;
+    }
+    .acc-active {
+        background-color: orange;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        transition: 1s;
+        padding: 10px 10px;
+    }
+}
