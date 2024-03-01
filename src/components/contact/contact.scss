@@ -53,3 +53,27 @@ form .flexSB input:nth-child(1) {
     width: 100%;
   }
 }
+
+.form-input {
+  border-radius: 20px;
+  outline: none;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.send-btn {
+  width: 38%;
+  border-radius: 10px;
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.send-btn:hover {
+  border: 1px solid orangered;
+  color: black;
+  background-color: white;
+  padding: 10px;
+}

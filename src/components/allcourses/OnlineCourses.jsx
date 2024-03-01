@@ -1,12 +1,12 @@
 import React from "react"
-import "./courses.css"
+import "./courses.scss"
 import { online } from "../../dummydata"
 import Heading from "../common/heading/Heading"
 
 const OnlineCourses = () => {
   return (
     <>
-      <section className='online'>
+      <section className='online mb-5'>
         <div className='container'>
           <Heading subtitle='COURSES' title='Browse Our Online Courses' />
           <div className='content grid3'>

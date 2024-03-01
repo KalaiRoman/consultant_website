@@ -50,7 +50,7 @@ function Section8() {
     ]
     return (
         <div className='main-section8'>
-            <div className='inside-section'>
+            <div className='inside-section mb-5'>
                 <div className='text-3xl fw-bold mt-5 text-center mb-5'>
                     Services <span className='it'>We Provide</span>
                 </div>
