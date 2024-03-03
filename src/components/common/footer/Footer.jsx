@@ -72,7 +72,7 @@ const Footer = () => {
       </div> */}
       <div className="main-footer-section">
         <div className="inside-footer-section">
-          <div className="main-inaise-section w-[80%] flex mx-auto">
+          <div className="main-inaise-section w-[80%] flex xs:flex-col mx-auto">
             <div className="w-[25%]">
               <div className="text-2xl fw-bold mb-5">
                 Contact Details

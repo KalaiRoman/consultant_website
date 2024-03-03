@@ -2,7 +2,39 @@ import React from "react"
 import "./courses.scss"
 import ceckbox from '../../assests/image/check-box.png';
 import bannerimagre from '../../assests/image/bannerimage.jpg';
+import im1 from '../../assests/image/imge1.png'
+import im2 from '../../assests/image/image2.png'
+import im3 from '../../assests/image/image3.png'
 const CoursesCard = () => {
+  const data = [
+    {
+      id: 1,
+      name: 'Skilling opportunities for aspiring learners beyond the boundaries of location and space. Breaking Barries.',
+      image: im1,
+      title: "Go Digital: Classroom without Walls"
+    },
+    {
+      id: 2,
+      name: 'First of its kind national level e-Skilling initiative by NSDC with an expansive catalog of courses. Achieve career goals.',
+      image: im2,
+      title: "Get Skilled: One-Stop e-Skilling destination"
+
+    },
+    {
+      id: 3,
+      name: 'Learning at ones own convenience and pace. Bringing skilling to doorstep.',
+      image: im3,
+      title: "Easy Access: Skilling on the move"
+
+    },
+    {
+      id: 4,
+      name: 'e-Skilling courses across multiple sectors. Discover Courses.',
+      image: im3,
+      title: "Pick and Choose: Industry related Course"
+
+    }
+  ]
   return (
     <div className="main-section-card">
       <div className="flex">
@@ -77,6 +109,29 @@ const CoursesCard = () => {
       </div>
       <div>
         <img src={bannerimagre} alt="no image" className="banner-image" />
+      </div>
+      <div>
+        <div className='flex gap-4 mx-auto w-[95%] align-items-center justify-center mt-10 pt-[2%]  '>
+          {data?.map((item, index) => {
+            return (
+              <div className='w-[30%] border rounded h-[230px] main-box-lists hover:shadow hover:scale-105 ease-in duration-300 cursor-pointer' key={index}>
+                <div className='box-cards'>
+                  <img src={item?.image} alt="no image" className='image-box' />
+                </div>
+                <div className="pt-[10%]">
+                  <div className="fw-bold">
+                    {item?.title}
+                  </div>
+                  <div className='box-texts mt-3 text-1xl'>
+                    {item?.name}
+                  </div>
+                </div>
+
+              </div>
+            )
+          })}
+
+        </div>
       </div>
     </div>
   )

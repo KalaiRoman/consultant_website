@@ -55,6 +55,7 @@ const Header = () => {
     {
       id: 4,
       name: "Sucess Corner",
+      path: "/success"
 
     },
     {
@@ -68,12 +69,12 @@ const Header = () => {
         },
         {
           id: 2,
-          name: "second"
+          name: "IT Certification"
         },
-        {
-          id: 3,
-          name: "three"
-        }
+        // {
+        //   id: 3,
+        //   name: "three"
+        // }
       ]
     },
     {
