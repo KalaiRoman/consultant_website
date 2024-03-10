@@ -36,7 +36,7 @@ const CoursesCard = () => {
     }
   ]
   return (
-    <div className="main-section-card">
+    <div className="main-section-card mb-5 mt-3">
       <div className="flex">
         <div className="w-[50%]">
 

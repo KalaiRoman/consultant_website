@@ -22,9 +22,6 @@ function Router() {
                 <Route path='/contact' element={<Contact />} />
                 <Route exact path='/non-it-recruitment' element={<NonIT />} />
                 <Route path='/*' element={<Pagenotfound />} />
-
-
-
             </Routes>
         </>
     )

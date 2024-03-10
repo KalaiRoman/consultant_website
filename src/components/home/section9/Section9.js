@@ -36,7 +36,7 @@ function Section9() {
 
                     {data?.map((item, index) => {
                         return (
-                            <div className="map-section mb-4 ">
+                            <div className="map-section mb-4 " key={index}>
                                 <div className='box11-inside'>
                                     <div className='box1-inside'>
                                         <div className='box2-inside'>

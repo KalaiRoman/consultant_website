@@ -1,10 +1,10 @@
 
 import React from 'react'
-import './Hero.scss';
+import './Heros.scss';
 function Hero1() {
   return (
     <>
-      <div className='main-hero-section'>
+      <div className='main-hero-section1'>
         <div className='inside-hero-section'>
           <div className='left-hero-section'>
             <div className='mb-4'><span className='text-white text-5xl fw-bold'>Non-IT Recruiting</span> <span className='text-5xl fw-bold pl-3 text-orange-500'>Services</span></div>
@@ -18,7 +18,7 @@ function Hero1() {
 
 
       </div>
-      <div className='card-position'>
+      <div className='card-position1'>
         <div>
           <img src={'https://img.freepik.com/premium-photo/surprised-ginger-female-employee-has-job-develops-new-business-srategy-poses-front-opened-laptop-computer-poses-workspace-against-office-interior-woman-software-developer-work_95891-12400.jpg'} alt="no image" className='it-image' />
         </div>

@@ -57,7 +57,7 @@ function Section2() {
         },
     ]
     return (
-        <div className='main-section2'>
+        <div className='main-section2 mt-4'>
 
             {/* <button className='commombtn'>kalai</button> */}
 
