@@ -25,8 +25,6 @@ function LoistIns() {
                     )
                 })}
             </div>
-
-
             <div className='mt-4 text-center bg-green-400 py-6 text-3xl fw-bold text-black flex align-items-center justify-content-center'>
                 <div className='animate-ping pr-4 text-orange-500'>...</div>Be Future Job ready, Now!!! <div className='pl-4 animate-ping text-blue-600'>...</div>
             </div>

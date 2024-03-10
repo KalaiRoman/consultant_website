@@ -22,7 +22,7 @@ const Header = () => {
     },
     {
       id: 2,
-      name: "Recuriment Services",
+      name: "Consulting Services",
       arryadata: [
         {
           id: 1,
@@ -32,24 +32,24 @@ const Header = () => {
 
       ]
     },
-    {
-      id: 3,
-      name: "Corporate Training",
-      arryadata: [
-        {
-          id: 1,
-          name: "first"
-        },
-        {
-          id: 2,
-          name: "second"
-        },
-        {
-          id: 3,
-          name: "three"
-        }
-      ]
-    },
+    // {
+    //   id: 3,
+    //   name: "Corporate Training",
+    //   arryadata: [
+    //     {
+    //       id: 1,
+    //       name: "first"
+    //     },
+    //     {
+    //       id: 2,
+    //       name: "second"
+    //     },
+    //     {
+    //       id: 3,
+    //       name: "three"
+    //     }
+    //   ]
+    // },
     // {
     //   id: 4,
     //   name: "Sucess Corner",
@@ -85,33 +85,12 @@ const Header = () => {
 
   return (
     <>
-      {/* <Head /> */}
       <header>
 
         <nav className='flexSB'
         >
           <ul className={click ? "mobile-nav" : "flexSB "} onClick={() => setClick(false)}>
-            {/* <li>
-              <Link to='/'>Home</Link>
-            </li>
-            <li>
-              <Link to='/courses'>All Courses</Link>
-            </li>
-            <li>
-              <Link to='/about'>About</Link>
-            </li>
-            <li>
-              <Link to='/team'>Team</Link>
-            </li>
-            <li>
-              <Link to='/pricing'>Pricing</Link>
-            </li>
-            <li>
-              <Link to='/journal'>Journal</Link>
-            </li>
-            <li>
-              <Link to='/contact'>Contact</Link>
-            </li> */}
+
 
             {ListHeaders?.map((item, index) => {
               return (
@@ -161,8 +140,10 @@ const Header = () => {
               )
             })}
           </ul>
-          <div className='start'>
-            <div className='button'>GET CERTIFICATE</div>
+          <div className='starts w-[10%]  flex align-items-center justify-center'>
+            <div className="border p-3 rounded w-[20px] h-[20px] flex align-items-center justify-content-center cursor-pointer">
+              <i className='fa fa-bars'></i>
+            </div>
           </div>
           <button className='toggle' onClick={() => setClick(!click)}>
             {click ? <i className='fa fa-times'> </i> : <i className='fa fa-bars'></i>}
@@ -174,3 +155,6 @@ const Header = () => {
 }
 
 export default Header
+
+
+// sun grow it consuting services llp
