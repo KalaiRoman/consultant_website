@@ -54,7 +54,7 @@ function Section9() {
                 </div>
 
                 <div className='right-girl'>
-                    <img src={girl} alt="no image" />
+                    <img src={'https://www.jordanianhr.com/wp-content/uploads/2019/09/fp-slider-girl-1.png'} alt="no image" />
 
                 </div>
             </div>

@@ -89,7 +89,6 @@
 
 import React from 'react'
 import './Hero.scss';
-import it from '../../../assests/image/it-recruitment-img.jpg';
 function Hero() {
   return (
     <>
@@ -109,7 +108,7 @@ function Hero() {
       </div>
       <div className='card-position'>
         <div>
-          <img src={it} alt="no image" className='it-image' />
+          <img src={'https://a0.anyrgb.com/pngimg/1620/1878/international-software-testing-qualifications-board-computer-lab-computer-repair-technician-software-testing-computer-science-information-technology-course-class-white-collar-worker.png'} alt="no image" className='it-image' />
         </div>
         <div className='ms-2'>
           <div className='fw-bold text-3xl mt-4 mb-4 '>

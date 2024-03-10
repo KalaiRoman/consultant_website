@@ -79,7 +79,7 @@ const Footer = () => {
               </div>
               <div className="flex gap-3 mt-4 mb-3 w-[85%]">
                 <i class="fas fa-map-marker-alt"></i>
-                203 Fake St. Mountain View, San Francisco, California, USA
+                Bengaluru,+Karnataka
               </div>
               <div className="flex gap-3 mt-4 mb-3 w-[85%]">
                 <i class="fas fa-mobile"></i>
@@ -87,7 +87,7 @@ const Footer = () => {
               </div>
               <div className="flex gap-3 mt-4 mb-4">
                 <i className='fa fa-paper-plane'></i>
-                info@yourdomain.com
+                Poovarasan@gmail.com
               </div>
 
               <div>
@@ -135,11 +135,13 @@ const Footer = () => {
 
               </div>
               <div className="mt-4 flex gap-4">
+                <i class="fab fa-google icon hover:scale-75"></i>
                 <i className='fab fa-facebook-f icon hover:scale-75'></i>
-                <i className='fab fa-twitter icon hover:scale-75'></i>
-                <i className='fab fa-instagram icon hover:scale-75'></i>
-                <i className="fab fa-youtube icon hover:scale-75"></i>
+                {/* <i className='fab fa-twitter icon hover:scale-75'></i> */}
+                {/* <i className='fab fa-instagram icon hover:scale-75'></i> */}
+                {/* <i className="fab fa-youtube icon hover:scale-75"></i> */}
                 <i class="fab fa-linkedin-in icon hover:scale-75"></i>
+
 
               </div>
             </div>

@@ -2,7 +2,7 @@
 
 .loginButton {
     width: auto;
-    padding:8px 100px;
+    padding: 8px 100px;
     border: none;
     outline: none;
     background-color: orangered;
@@ -10,4 +10,42 @@
     border-radius: 10px;
     // font-weight: 800;
     font-size: 1.3rem;
+}
+
+.commombtn {
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: black;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.commombtn::before {
+    content: "";
+    position: absolute;
+    width: 220px;
+    height: 34%;
+    background-color: white;
+    animation: animate 3s linear infinite;
+    box-shadow: 0 0 20px rgb(8, 8, 8);
+}
+.commombtn::after {
+    content: "";
+    position: absolute;
+    background-color: black;
+    inset: 1px;
+    border-radius: 16px;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }

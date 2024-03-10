@@ -7,6 +7,8 @@ import Pricing from "./../components/pricing/Pricing"
 import Blog from "./../components/blog/Blog"
 import Contact from "./../components/contact/Contact"
 import Home from "./../components/home/Home"
+import NonIT from '../components/nonIT/NonIT'
+import Pagenotfound from '../components/pagenotfound/Pagenotfound'
 function Router() {
     return (
         <>
@@ -18,6 +20,11 @@ function Router() {
                 <Route path='/pricing' element={<Pricing />} />
                 <Route path='/success' element={<Blog />} />
                 <Route path='/contact' element={<Contact />} />
+                <Route exact path='/non-it-recruitment' element={<NonIT />} />
+                <Route path='/*' element={<Pagenotfound />} />
+
+
+
             </Routes>
         </>
     )

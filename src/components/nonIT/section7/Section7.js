@@ -15,6 +15,18 @@ function Section7() {
         {
             id: 3,
             name: "Being one of the best IT placement companies, our hiring business and technology strategies are transparent, thus ranking us high in the list of IT recruitment companies. ",
+        },
+        {
+            id: 4,
+            name: "Being one of the best IT placement companies, our hiring business and technology strategies are transparent, thus ranking us high in the list of IT recruitment companies. ",
+        },
+        {
+            id: 5,
+            name: "Being one of the best IT placement companies, our hiring business and technology strategies are transparent, thus ranking us high in the list of IT recruitment companies. ",
+        },
+        {
+            id: 6,
+            name: "Being one of the best IT placement companies, our hiring business and technology strategies are transparent, thus ranking us high in the list of IT recruitment companies. ",
         }
     ]
     return (
@@ -25,10 +37,10 @@ function Section7() {
                 </div>
                 <div className='right-section7'>
                     <div className='fw-bold text-3xl'>
-                        Why trust Evision Over Other <span className='it'>IT Job Recruitment</span> Agencies?
+                        <span className='it'>Sourcing</span>  Channels
                     </div>
                     <div className='mt-4 leading-8'>
-                        By searching for popular IT placement agencies, you will get plenty of results; yet, only experienced ones can give proven results. Enabling information technology with recruitment skills for 15 years on-field, we at Evision present before you three solid reasons to go with our IT job consultancy over others:
+                        We are highly connected in market and employ effective candidate sourcing methods through various channel.
                     </div>
                     <div>
                         {data?.map((item, index) => {

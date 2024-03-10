@@ -5,7 +5,7 @@ function Section5() {
     return (
         <div className='main-section5'>
             <div>
-                <img src={itimage} alt="no image" className='it-images' />
+                <img src={'https://ziapy.com/wp-content/uploads/2023/08/Job-interview-questions-to-ask-.jpg'} alt="no image" className='it-images' />
             </div>
             <div>
                 <div className='text-3xl fw-bold mt-4 mb-4'>

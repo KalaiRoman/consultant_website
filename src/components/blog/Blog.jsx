@@ -6,6 +6,7 @@ import "./blog.scss"
 const Blog = () => {
   return (
     <>
+
       <Back title='Success Corner' />
       <div className="main-success-page">
         <div className="text-3xl text-center fw-bold text-blue-600 mt-3 mb-4">

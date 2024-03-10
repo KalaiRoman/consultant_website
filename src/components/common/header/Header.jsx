@@ -26,12 +26,10 @@ const Header = () => {
       arryadata: [
         {
           id: 1,
-          name: "first"
+          name: "Non-IT Recuriment - Civil / Mechanical / Electrical / Electronics",
+          path: "/non-it-recruitment"
         },
-        {
-          id: 2,
-          name: "second"
-        }
+
       ]
     },
     {
@@ -52,12 +50,12 @@ const Header = () => {
         }
       ]
     },
-    {
-      id: 4,
-      name: "Sucess Corner",
-      path: "/success"
+    // {
+    //   id: 4,
+    //   name: "Sucess Corner",
+    //   path: "/success"
 
-    },
+    // },
     {
       id: 5,
       name: "Internships",
@@ -67,10 +65,10 @@ const Header = () => {
           name: "e-learning",
           path: "/courses"
         },
-        {
-          id: 2,
-          name: "IT Certification"
-        },
+        // {
+        //   id: 2,
+        //   name: "IT Certification"
+        // },
         // {
         //   id: 3,
         //   name: "three"
